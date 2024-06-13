@@ -13,6 +13,10 @@ public class PlayerController : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     float _rotationX = 0;
     public bool _canMove = true;
+    public Transform _Position1;
+    public Transform _Position2;
+    public Transform _Position3;
+    public Transform _Position4;
 
     // Start is called before the first frame update
     void Start()
